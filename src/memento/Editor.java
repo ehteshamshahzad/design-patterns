@@ -1,21 +1,21 @@
 package memento;
 
-public class Editor { // Originator
-    private Document document;
+public class Editor<T> { // Originator
+    private T data;
 
-    public EditorState createState() {
-        return new EditorState(document);
+    public EditorState<T> createState() {
+        return new EditorState<T>(data);
     }
 
-    public void restore(EditorState editorState) {
-        document = editorState.getDocument();
+    public void restore(EditorState<T> editorState) {
+        data = editorState.getDocument();
     }
 
-    public Document getDocument() {
-        return document;
+    public T getDocument() {
+        return data;
     }
 
-    public void setDocument(Document document) {
-        this.document = document;
+    public void setDocument(T document) {
+        this.data = document;
     }
 }

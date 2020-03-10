@@ -3,14 +3,14 @@ package memento;
 import java.util.ArrayList;
 import java.util.List;
 
-public class History { // Caretaker
-    private final List<EditorState> editorStates = new ArrayList<>();
+public class History<T> { // Caretaker
+    private final List<EditorState<T>> editorStates = new ArrayList<>();
 
-    public void push(EditorState editorState) {
+    public void push(EditorState<T> editorState) {
         editorStates.add(editorState);
     }
 
-    public EditorState pop() {
+    public EditorState<T> pop() {
         var lastIndex = editorStates.size() - 1;
         var lastState = editorStates.get(lastIndex);
         editorStates.remove(lastState);

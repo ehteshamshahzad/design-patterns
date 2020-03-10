@@ -8,8 +8,8 @@ public class Main {
     }
 
     void Memento() {
-        var editor = new Editor();
-        var history = new History();
+        var editor = new Editor<Document>();
+        var history = new History<Document>();
 
         editor.setDocument(new Document("Story", "Arial", 12));
         history.push(editor.createState());

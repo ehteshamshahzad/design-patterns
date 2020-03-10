@@ -1,14 +1,14 @@
 package memento;
 
-public class EditorState { // Memento
-    private final Document document;
+public class EditorState<T> { // Memento
+    private final T data;
 
-    public EditorState(Document document) {
-        this.document = document;
+    public EditorState(T document) {
+        this.data = document;
     }
 
-    public Document getDocument() {
-        return document;
+    public T getDocument() {
+        return data;
     }
 
 }
