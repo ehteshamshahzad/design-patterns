@@ -1,11 +1,22 @@
 package state;
 
 public class Canvas {
-    public void mouseDown() {
 
+    private Tool currentTool;
+
+    public void mouseUp(){
+        currentTool.mouseUp();
     }
 
-    public void mouseUp() {
+    public void mouseDown(){
+        currentTool.mouseDown();
+    }
 
+    public Tool getCurrentTool() {
+        return currentTool;
+    }
+
+    public void setCurrentTool(Tool currentTool) {
+        this.currentTool = currentTool;
     }
 }

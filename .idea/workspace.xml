@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ebdb41-19db-4231-b9e1-150b794350f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/BrushTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/EraserTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/SelectionTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/Tool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/memento/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/memento/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/state/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/state/Canvas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memento/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memento/EditorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memento/EditorState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/memento/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memento/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/Canvas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="E:/Projects/H/Hospital Management/hospital management src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Code Challenge" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RunManager">
@@ -80,30 +86,36 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="715" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583509046974" />
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1583513792471">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1589841999004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583513792471" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1583768995458">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1589841999004" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589841728899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1589841728899" />
+    <state x="592" y="222" key="FileChooserDialogImpl" timestamp="1591994288453">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="592" y="222" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591994288453" />
+    <state x="-1328" y="222" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591779128038" />
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583768995458" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1583768996661">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590054955512">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583768996661" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1583768996661">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1590054955512" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590054955511">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583768996661" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1583768996660">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1590054955511" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590054955511">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583768996660" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1583768996661">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1590054955511" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590054955511">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583768996661" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1590054955511" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1583528554415">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -120,5 +132,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583528554415" />
+    <state x="-1711" y="38" key="new project wizard" timestamp="1591779129721">
+      <screen x="-1920" y="0" width="1536" height="834" />
+    </state>
+    <state x="-1711" y="38" key="new project wizard/0.0.1920.1050/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591779129721" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1589841146505">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1589841146505" />
   </component>
 </project>
